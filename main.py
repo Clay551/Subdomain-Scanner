@@ -22,7 +22,7 @@ pyfiglet.print_figlet("Asylum")
 print(colorama.Fore.RESET)
 print("e.g : example.com")
 print('')
-domain = input("Enter Doamin==> ")
+domain = input("Enter Domian==> ")
 
 with open("subdomains.txt", 'r') as f:
     for subdomain in f:
